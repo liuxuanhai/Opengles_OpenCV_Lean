@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mvvm.videolearnproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".opengl3_1.DisActivity"
+            android:exported="true"/>
+
+        <activity android:name=".opengl3.DisDiffImgActivity"
+            android:exported="true"/>
+
+        <activity android:name=".opengl2_1.DisImgActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".opengl3.EditPhotActivity"
+            android:exported="true" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".opengl.GLActivity"
+            android:exported="true" />
+        <activity
+            android:name=".opengl2.DrawGLActivity"
+            android:exported="true" />
+        <activity
+            android:name=".opengl3.DisGlActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

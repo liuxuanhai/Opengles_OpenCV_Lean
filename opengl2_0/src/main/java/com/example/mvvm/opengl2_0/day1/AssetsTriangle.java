@@ -4,7 +4,7 @@ import android.content.Context;
 import android.opengl.GLES20;
 import android.util.Log;
 
-import com.example.mvvm.opengl2_0.GLUtils;
+import com.example.mvvm.opengl2_0.GLUtil;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
@@ -42,8 +42,8 @@ public class AssetsTriangle {
         //初始化顶点字节缓冲区
         bufferData();
 
-        int vertexShader= GLUtils.loadShaderAssets(context,GLES20.GL_VERTEX_SHADER,"tri_3.vert");
-        int fragmentShader= GLUtils.loadShaderAssets(context,GLES20.GL_FRAGMENT_SHADER,"tri.frag");
+        int vertexShader= GLUtil.loadShaderAssets(context,GLES20.GL_VERTEX_SHADER,"tri_3.vert");
+        int fragmentShader= GLUtil.loadShaderAssets(context,GLES20.GL_FRAGMENT_SHADER,"tri.frag");
 
         Log.i("--->","vertexShader==>"+vertexShader+"   fragmentShader====>"+fragmentShader);
         mProgram = GLES20.glCreateProgram();//创建空的OpenGL ES 程序

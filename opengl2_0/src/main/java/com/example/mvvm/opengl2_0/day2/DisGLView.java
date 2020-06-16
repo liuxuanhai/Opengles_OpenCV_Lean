@@ -6,7 +6,6 @@ import android.util.AttributeSet;
 
 import com.example.mvvm.opengl2_0.day1.AssetsTriangleRender;
 import com.example.mvvm.opengl2_0.day1.AssetsTriangleRender2;
-import com.example.mvvm.opengl2_0.day1.GLRenderer;
 import com.example.mvvm.opengl2_0.day1.GLTriangleRenderer;
 
 /**
@@ -19,8 +18,8 @@ public class DisGLView extends GLSurfaceView {
     private  int num;
     private Context context;
     SquareRender squareRender;
-
-
+    StereoscopicRender stereoscopicRender;
+    GLRenderer glRenderer;
 
     public DisGLView(Context context, int num) {
         super(context);
@@ -36,12 +35,22 @@ public class DisGLView extends GLSurfaceView {
 
     private void init() {
         setEGLContextClientVersion(2);//设置OpenGL ES 2.0 context
-        switch (num){
-            case 1:
-                squareRender = new SquareRender(context);
-                setRenderer(squareRender);//设置渲染器
-                break;
+        if (num<5){
+            squareRender = new SquareRender(context,num);
+            setRenderer(squareRender);//设置渲染器
+        }else if (num==5){
+           stereoscopicRender=new StereoscopicRender(context,num);
+            setRenderer(stereoscopicRender);//设置渲染器
+        }else if (num==6){
+            num=5;
+            stereoscopicRender=new StereoscopicRender(context,num);
+            setRenderer(stereoscopicRender);//设置渲染器
+        }else if (num==7){
+            glRenderer=new GLRenderer(context,num);
+            setRenderer(glRenderer);
+        }else if (num==8){
+            glRenderer=new GLRenderer(context,num);
+            setRenderer(glRenderer);
         }
-
     }
 }

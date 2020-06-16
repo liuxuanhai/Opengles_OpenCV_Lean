@@ -16,3 +16,18 @@ uniform vec4 vColor;
 
 顶点渲染
 varying  vec4 vColor;//片元颜色
+
+参数一绘制模式，点，线，三角形
+参数二坐标起点
+参数三绘制的边数
+GLES20.glDrawArrays(GLES20.GL_TRIANGLE_STRIP, 0, 5);
+
+
+OpenGl ES关于渲染方式有以下两种：
+RENDERMODE_CONTINUOUSLY
+和RENDERMODE_WHEN_DIRTY。
+1)
+默认渲染方式为RENDERMODE_CONTINUOUSLY，
+当设置为RENDERMODE_CONTINUOUSLY时渲染器会不停地渲染场景
+2)
+当设置为RENDERMODE_WHEN_DIRTY时只有在创建和调用requestRender()时才会刷新

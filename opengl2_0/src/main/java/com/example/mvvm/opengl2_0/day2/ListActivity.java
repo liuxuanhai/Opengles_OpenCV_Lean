@@ -22,5 +22,54 @@ public class ListActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        findViewById(R.id.list_view_2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent.putExtra("num",2);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.list_view_3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent.putExtra("num",3);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.list_view_4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent.putExtra("num",4);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.list_view_5).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent.putExtra("num",5);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.list_view_6).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent.putExtra("num",5);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.list_view_7).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent.putExtra("num",7);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.list_view_8).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent.putExtra("num",8);
+                startActivity(intent);
+            }
+        });
     }
 }

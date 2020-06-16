@@ -21,10 +21,10 @@
             android:background="#66666666"/>
 
         <TextView
-            android:id="@+id/dis_view_2"
+            android:id="@+id/list_view_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="opengl绘制三角形"
+            android:text="绘制五边形"
             android:padding="6dp"
             android:layout_margin="6dp"
             android:gravity="center"
@@ -32,20 +32,62 @@
             android:background="#66666666"/>
 
         <TextView
-            android:id="@+id/dis_view_3"
+            android:id="@+id/list_view_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="加载资源文件,opengl绘制三角形"
+            android:text="索引五边形"
             android:padding="6dp"
             android:layout_margin="6dp"
             android:gravity="center"
             android:textColor="#ffffffff"
             android:background="#66666666"/>
         <TextView
-            android:id="@+id/dis_view_4"
+            android:id="@+id/list_view_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="加载资源文件,opengl顶点着色"
+            android:text="绘制六边形"
+            android:padding="6dp"
+            android:layout_margin="6dp"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:background="#66666666"/>
+        <TextView
+            android:id="@+id/list_view_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="绘制立体图形"
+            android:padding="6dp"
+            android:layout_margin="6dp"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:background="#66666666"/>
+        <TextView
+            android:id="@+id/list_view_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="调整相机视角"
+            android:padding="6dp"
+            android:layout_margin="6dp"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:background="#66666666"/>
+
+        <TextView
+            android:id="@+id/list_view_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="贴图三角形:TextureRectangle"
+            android:padding="6dp"
+            android:layout_margin="6dp"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:background="#66666666"/>
+
+        <TextView
+            android:id="@+id/list_view_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="矩形纹理"
             android:padding="6dp"
             android:layout_margin="6dp"
             android:gravity="center"

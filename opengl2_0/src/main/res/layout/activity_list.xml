@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".day2.ListActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/list_view_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="绘制正方形"
+            android:padding="6dp"
+            android:layout_margin="6dp"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:background="#66666666"/>
+
+        <TextView
+            android:id="@+id/dis_view_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="opengl绘制三角形"
+            android:padding="6dp"
+            android:layout_margin="6dp"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:background="#66666666"/>
+
+        <TextView
+            android:id="@+id/dis_view_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="加载资源文件,opengl绘制三角形"
+            android:padding="6dp"
+            android:layout_margin="6dp"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:background="#66666666"/>
+        <TextView
+            android:id="@+id/dis_view_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="加载资源文件,opengl顶点着色"
+            android:padding="6dp"
+            android:layout_margin="6dp"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:background="#66666666"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

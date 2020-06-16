@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/contentproviderm" />
             <option value="$PROJECT_DIR$/learnNDKMoudle" />
+            <option value="$PROJECT_DIR$/opengl2_0" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

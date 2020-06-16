@@ -1,0 +1,18 @@
+资源文件读取变量句柄
+1）
+attribute vec4 aColor;//顶点颜色
+===》
+// 获取片元着色器的vColor成员的句柄
+mColorHandle = GLES20.glGetAttribLocation(mProgram, "aColor");
+
+2）
+uniform vec4 vColor;
+====》
+// 获取片元着色器的vColor成员的句柄
+mColorHandle = GLES20.glGetUniformLocation(mProgram, "vColor");
+
+片源着色
+uniform vec4 vColor;
+
+顶点渲染
+varying  vec4 vColor;//片元颜色

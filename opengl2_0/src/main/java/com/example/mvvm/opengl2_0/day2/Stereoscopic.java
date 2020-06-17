@@ -28,7 +28,7 @@ public class Stereoscopic {
     // 数组中每个顶点的坐标数
     static final int COORDS_PER_VERTEX = 3;
 
-    static float sCoo[] = {
+    static float[] sCoo = {
             //A面
             -0.5f, 0.5f, 0.5f,//p0
             -0.5f, -0.5f, 0.5f,//p1
@@ -77,7 +77,7 @@ public class Stereoscopic {
             1 + 4 * 5, 2 + 4 * 5, 3 + 4 * 5,
     };
 
-    float color[] = new float[]{
+    float[] color = new float[]{
             //A
             1f, 1f, 0.0f, 1.0f,//黄
             0.05882353f, 0.09411765f, 0.9372549f, 1.0f,//蓝

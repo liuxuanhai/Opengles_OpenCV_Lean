@@ -25,7 +25,7 @@ public class TextureRectangle {
     private final int vertexStride = COORDS_PER_VERTEX * 4; // 3*4=12
     static final int COORDS_PER_VERTEX = 3;//数组中每个顶点的坐标数
     static final int c = 1;//数组中每个顶点的坐标数
-    static float sCoo[] = {   //以逆时针顺序
+    static float[] sCoo = {   //以逆时针顺序
             -c, c, 0.0f, // p0
             -c, -c, 0.0f, // p1
             c, -c, 0.0f, // p2

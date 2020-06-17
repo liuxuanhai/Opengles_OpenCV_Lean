@@ -34,6 +34,18 @@
             android:textColor="#ffffffff"
             android:background="#66666666"
             />
+
+        <TextView
+            android:id="@+id/opengl_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android多媒体之GLES2战记第三集"
+            android:padding="6dp"
+            android:layout_margin="6dp"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:background="#66666666"
+            />
     </LinearLayout>
 
 

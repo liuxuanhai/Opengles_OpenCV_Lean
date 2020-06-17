@@ -28,7 +28,7 @@ public class Sexangle {
     // 数组中每个顶点的坐标数
     static final int COORDS_PER_VERTEX = 3;
 
-    static float sCoo[] = {   //以逆时针顺序
+    static float[] sCoo = {   //以逆时针顺序
             -0.5f, 0.5f, 0.0f, // p0
             -1.0f, 0.0f, 0.0f, // p1
             -0.5f, -0.5f, 0.0f, // p2
@@ -47,7 +47,7 @@ public class Sexangle {
     };
 
     // 颜色，rgba
-    float color[] = {
+    float[] color = {
             0.05882353f, 0.09411765f, 0.9372549f, 1.0f,
             0.19607843f, 1.0f, 0.02745098f, 1.0f,
             1.0f, 0.0f, 1.0f, 1.0f,

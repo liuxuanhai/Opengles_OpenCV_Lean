@@ -31,3 +31,8 @@ RENDERMODE_CONTINUOUSLY
 当设置为RENDERMODE_CONTINUOUSLY时渲染器会不停地渲染场景
 2)
 当设置为RENDERMODE_WHEN_DIRTY时只有在创建和调用requestRender()时才会刷新
+
+
+MatrixStackUtil.rotate(currDeg, -1.5f, 0, 0);
+MatrixStackUtil.translate(-2.5f, 0, 0);
+动画效果叠加，旋转动画应该放在最方面，因为会重置其他的参数，无法绘制成功

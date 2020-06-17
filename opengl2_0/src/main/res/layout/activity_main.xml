@@ -46,6 +46,20 @@
             android:textColor="#ffffffff"
             android:background="#66666666"
             />
+
+        <TextView
+            android:id="@+id/opengl_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="多媒体之GLES2战记第四集--移形换影"
+            android:padding="6dp"
+            android:layout_margin="6dp"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:background="#66666666"
+            />
+
+
     </LinearLayout>
 
 

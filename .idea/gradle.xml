@@ -11,10 +11,13 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/OpenCVNative" />
+            <option value="$PROJECT_DIR$/animatormodule" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/contentproviderm" />
             <option value="$PROJECT_DIR$/learnNDKMoudle" />
             <option value="$PROJECT_DIR$/opengl2_0" />
+            <option value="$PROJECT_DIR$/selfdrawview" />
+            <option value="$PROJECT_DIR$/videoproject" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
